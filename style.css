@@ -1,0 +1,90 @@
+/* General styling */
+body {
+    font-family: 'Cinzel', serif;
+    background: linear-gradient(to bottom right, #0b0b0b, #1a1a1a);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #eaeaea;
+}
+
+/* Container */
+.container {
+    background: #1a1a1a;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 25px rgba(139, 0, 0, 0.8);
+    width: 380px;
+    text-align: center;
+    border: 2px solid #8b0000;
+}
+
+/* Heading */
+.container h1 {
+    margin-bottom: 20px;
+    color: #b22222;
+    text-shadow: 0 0 8px #8b0000;
+    font-family: 'UnifrakturCook', cursive;
+    letter-spacing: 2px;
+}
+
+/* Input box */
+#inputTask {
+    width: 68%;
+    padding: 10px;
+    border: 1px solid #8b0000;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+    background: #111;
+    color: #fff;
+}
+
+/* Button */
+button {
+    padding: 10px 15px;
+    border: none;
+    background: #8b0000;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: background 0.3s ease, transform 0.2s ease;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #b22222;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #b22222;
+}
+
+/* Task list */
+#todolist {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: left;
+}
+
+#todolist li {
+    background: #111;
+    padding: 12px 14px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    border-left: 4px solid #8b0000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #eaeaea;
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+#todolist li:hover {
+    transform: scale(1.02);
+    background: #222;
+    box-shadow: 0 0 10px rgba(139,0,0,0.6);
+}
